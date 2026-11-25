@@ -3,7 +3,7 @@ public class HitungBalok25 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int p, l, t, L, vol;
-
+        
         System.out.println("Masukkan panjang");
         p = sc.nextInt();
         System.out.println("Masukkan lebar");
@@ -12,7 +12,8 @@ public class HitungBalok25 {
         t = sc.nextInt();
 
         L = p*l;
-
+        L =hitungLuas(p, l);
+        vol =hitungVolume(t,p,l);
         System.out.println("Luas persegi panjang adalah: " + L);
         vol = p*l*t;
         System.out.println("Volume balok adalah: " + vol);
