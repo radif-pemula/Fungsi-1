@@ -17,8 +17,8 @@ public class Pertanyaan {
     }
 public static void main(String[] args) {
     Menu();
-    int total = jumlahMenu();
-    System.out.println("Jumlah menu: " + total);
+    Menu();
+    Menu();
 }
 }
 
